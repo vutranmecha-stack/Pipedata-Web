@@ -1,0 +1,10 @@
+{
+  "BW-90LR-Elbow": {
+    "2": { "CENTER_TO_FACE": 76, "OD": 60.3, "STD": 3.91, "XS": 5.54 },
+    "4": { "CENTER_TO_FACE": 152, "OD": 114.3, "STD": 6.02, "XS": 8.56 }
+  },
+  "BW-45LR-Elbow": {
+    "2": { "CENTER_TO_FACE": 35, "OD": 60.3, "STD": 3.91, "XS": 5.54 },
+    "4": { "CENTER_TO_FACE": 64, "OD": 114.3, "STD": 6.02, "XS": 8.56 }
+  }
+}

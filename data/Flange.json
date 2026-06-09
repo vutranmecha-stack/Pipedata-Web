@@ -1,0 +1,13 @@
+[
+  { "Type": "SO", "Class": "150", "NPS": "1/2", "DN": 15, "FDIA": 89, "BCD": 60.5, "WEIGHT": 0.6, "BOLT_SIZE": "1/2\" UNC" },
+  { "Type": "SO", "Class": "300", "NPS": "1/2", "DN": 15, "FDIA": 95, "BCD": 66.5, "WEIGHT": 0.9, "BOLT_SIZE": "1/2\" UNC" },
+
+
+
+
+
+
+
+  
+  { "Type": "WN", "Class": "150", "NPS": "2", "DN": 50, "FDIA": 152, "BCD": 120.6, "WEIGHT": 2.7, "BOLT_SIZE": "5/8\" UNC" }
+]

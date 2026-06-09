@@ -1,0 +1,3 @@
+.toolbar { display: flex; gap: 15px; padding: 12px; background: #ededed; border-bottom: 1px solid var(--border-color); }
+.select-group { display: flex; flex-direction: column; font-size: 12px; }
+select { padding: 4px; min-width: 110px; margin-top: 4px; }

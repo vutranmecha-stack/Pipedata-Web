@@ -1,0 +1,11 @@
+:root {
+    --sidebar-bg: #f4f4f4;
+    --border-color: #aaa;
+    --accent-color: #0078d7;
+    --text-overlay-color: #002b5e;
+}
+body { 
+    margin: 0; 
+    font-family: Tahoma, Arial, sans-serif; 
+    background: #dcdcdc; 
+}

@@ -1,0 +1,3 @@
+.main-container { display: flex; min-height: 100vh; }
+.right-panel { flex: 1; display: flex; flex-direction: column; }
+.content { padding: 20px; flex: 1; display: flex; flex-direction: column; }

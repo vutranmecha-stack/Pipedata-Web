@@ -1,0 +1,32 @@
+{
+  "ASME_B16_5": {
+    "title": "ASME B16.5 Flanges",
+    "fileMapping": {
+      "WN": "Flange",
+      "SO": "Flange"
+    },
+    "types": {
+      "WN": "Weldneck Flange",
+      "SO": "Slip-on Flange"
+    },
+    "classes": ["150", "300"],
+    "faces": ["RF", "RTJ"],
+    "schedules": ["STD", "XS"]
+  },
+  "ASME_B16_9": {
+    "title": "ASME B16.9 Buttwelded Fittings",
+    "fileMapping": {
+      "BW-90LR-Elbow": "Elbow",
+      "BW-45LR-Elbow": "Elbow",
+      "BW-CONC-Reducer": "Reducer"
+    },
+    "types": {
+      "BW-90LR-Elbow": "90° Elbow (Long Radius)",
+      "BW-45LR-Elbow": "45° Elbow (Long Radius)",
+      "BW-CONC-Reducer": "Reducer Concentric"
+    },
+    "classes": [],
+    "faces": [],
+    "schedules": ["STD", "XS"]
+  }
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Pipedata Pro - Web Clone V2</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div class="main-container">
+    <div class="sidebar">
+        <div class="menu-wrapper">
+            <button class="menu-item" onclick="toggleMenu(this)">Flanges ▼</button>
+            <div class="submenu">
+                <div class="submenu-item" data-category="flg" data-file="data" data-group="ASME_B16_5">ASME B16.5</div>
+            </div>
+        </div>
+
+        <div class="menu-wrapper">
+            <button class="menu-item" onclick="toggleMenu(this)">Fittings ▼</button>
+            <div class="submenu">
+                <div class="submenu-item" data-category="fits" data-file="data" data-group="ASME_B16_9">ASME B16.9 BW</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="right-panel">
+        <div class="toolbar">
+            <div class="select-group" id="typeGroup"><label>Type</label><select id="typeSel"></select></div>
+            <div class="select-group" id="sizeGroup"><label>Size</label><select id="sizeSel"></select></div>
+            <div class="select-group" id="smallsizeGroup" style="display:none;"><label>Small Size</label><select id="smallsizeSel"></select></div>
+            <div class="select-group" id="classGroup"><label>Class</label><select id="classSel"></select></div>
+            <div class="select-group" id="faceGroup"><label>Face</label><select id="faceSel"></select></div>
+            <div class="select-group" id="schGroup"><label>Sch</label><select id="schSel"></select></div>
+        </div>
+
+        <div class="content">
+            <h2 id="mainTitle">Please select a standard</h2>
+            <div class="drawing-area" id="drawingArea">
+                <div class="info-overlay info-top-left" id="infoTopLeft"></div>
+                <div class="info-overlay info-bottom-left" id="infoBottomLeft"></div>
+                <div class="info-overlay info-bottom-right" id="infoBottomRight"></div>
+
+                <div id="svgContainer">
+                    <p style="color:#888">Select component from menu</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="module" src="script/main.js"></script>
+</body>
+</html>

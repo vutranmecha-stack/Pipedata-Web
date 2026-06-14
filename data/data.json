@@ -9,9 +9,9 @@
       "WN": "Weldneck Flange",
       "SO": "Slip-on Flange"
     },
-    "classes": ["150", "300"],
+    "classes": ["150#", "300#","600#"],
     "faces": ["RF", "RTJ"],
-    "schedules": ["STD", "XS"]
+    "schedules": ["40","STD","XS","160"]
   },
   "ASME_B16_9": {
     "title": "ASME B16.9 Buttwelded Fittings",

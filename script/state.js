@@ -5,5 +5,5 @@ export const state = {
     currentCategory: null,
     svgElement: null,
     svgCache: {},
-    BASE_FONT_SIZE: 250
+    BASE_FONT_SIZE: 200
 };

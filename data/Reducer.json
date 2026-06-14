@@ -1,4 +1,10 @@
 [
-  { "Type": "BW-CONC-Reducer", "NPS": "4", "Small_NPS": "2", "LEN": 102, "OD_LARGE": 114.3, "OD_SMALL": 60.3, "STD": 6.02, "XS": 8.56 },
-  { "Type": "BW-CONC-Reducer", "NPS": "4", "Small_NPS": "3", "LEN": 102, "OD_LARGE": 114.3, "OD_SMALL": 88.9, "STD": 6.02, "XS": 8.56 }
+  { "Type": "BW-CONC-Reducer", "NPS": "3/4", "Small_NPS": "1/2", "LEN": 38},
+  { "Type": "BW-CONC-Reducer", "NPS": "1", "Small_NPS": "1/2", "LEN": 51},
+  { "Type": "BW-CONC-Reducer", "NPS": "1 1/4", "Small_NPS": "1", "LEN": 51},
+  { "Type": "BW-CONC-Reducer", "NPS": "1 1/2", "Small_NPS": "1", "LEN": 64},
+  { "Type": "BW-CONC-Reducer", "NPS": "2", "Small_NPS": "1", "LEN": 76},
+  { "Type": "BW-CONC-Reducer", "NPS": "2 1/2", "Small_NPS": "2", "LEN": 89},
+  { "Type": "BW-CONC-Reducer", "NPS": "2 1/2", "Small_NPS": "2", "LEN": 89},
+  { "Type": "BW-CONC-Reducer", "NPS": "4", "Small_NPS": "3", "LEN": 102}
 ]

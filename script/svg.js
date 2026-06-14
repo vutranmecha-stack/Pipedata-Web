@@ -1,12 +1,12 @@
 import { state } from './state.js';
-import { updateUI } from './ui.js';
+import { updateUI } from './ui_render.js';
 
 export function updateSVGBySelection() {
     const typeVisible = document.getElementById("typeGroup").style.display !== "none";
     const faceVisible = document.getElementById("faceGroup").style.display !== "none";
-
     const type = typeVisible ? document.getElementById("typeSel").value : "";
     const face = faceVisible ? document.getElementById("faceSel").value : "";
+    
     if (!type) return;
 
     let svgPath = "";
@@ -43,7 +43,8 @@ export async function loadSVG(url){
 
 export function prepareSVG(){
     if (!state.svgElement) return;
-    const validKeys = ["HDSE","PID","LEN","RFD","BCD","FDIA","BHD","FTHK","RFLEN","THK","CENTER_TO_FACE","OD","BOLT_HOLE_INFO","DAN","RTJD","RTJDE"];
+    const validKeys = ["FDIA", "BCD", "RFD", "HDSE", "PID", "BHD", "LEN", "FTHK", "RFLEN", "RTJD", "RTJDE", "DAN",
+        "BHG", "WEIGHT", "BOLT_WEIGHT", "PAINT_AREA", "BOLT_SIZE_RF", "BOLT_SIZE_RTJ", "BOLT_HOLE_INFO"];
     state.svgElement.querySelectorAll("text,tspan").forEach(el => {
         const txt = el.textContent.trim();
         if(validKeys.includes(txt)){ el.setAttribute("data-key", txt); }
